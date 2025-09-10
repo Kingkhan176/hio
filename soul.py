@@ -6,7 +6,7 @@ from datetime import datetime
 from telegram import Update
 from telegram.constants import ChatAction
 from telegram.ext import Application, CommandHandler, ContextTypes
-from github import Github, InputGitTreeElement, Auth
+from Github import Github, InputGitTreeElement, Auth
 
 TELEGRAM_TOKEN = '7449926225:AAHCG7NUeBAF6cLbukzzR509GTpyG6CzBso'
 
